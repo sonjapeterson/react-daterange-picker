@@ -8,7 +8,7 @@
     "build-dist-js": "gulp build-dist-js",
     "test": "gulp test-coverage",
     "lint": "eslint src example"
-},
+  },
   "contributors": [
     {
       "name": "Andrew Ingram",
@@ -35,7 +35,7 @@
   "dependencies": {
     "calendar": "^0.1.0",
     "classnames": "^2.1.1",
-    "immutable": "^3.7.2",
+    "immutable": "sonjapeterson/immutable-js#disable-length-warning",
     "moment": "^2.10.6",
     "moment-range": "^2.0.3"
   },
